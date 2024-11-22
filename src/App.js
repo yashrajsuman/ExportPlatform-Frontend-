@@ -18,9 +18,7 @@ import DocumentManagement from './pages/DocumentManagement';
 import Notifications from './pages/Notifications';
 import Settings from './pages/Settings';
 import Messaging from './pages/Messaging';
-import AudioCall from './pages/AudioCall';
-import CarrierDashboard from './pages/CarrierDashboard';
-import CarrierSelectionRules from './pages/CarrierSelectionRules';
+
 
 
 const theme = createTheme({
@@ -104,22 +102,12 @@ function App() {
                   path="/messaging"
                   element={isAuthenticated ? <Messaging /> : <Navigate to="/login" />}
                 />
-                <Route
-                  path="/audiocall"
-                  element={isAuthenticated ? <AudioCall /> : <Navigate to="/login" />}
-                />
-                <Route
-                  path="/carrier-dashboard"
-                  element={isAuthenticated ? <CarrierDashboard /> : <Navigate to="/login" />}
-                />
+                
                 <Route
                   path="/notifications"
                   element={isAuthenticated ? <Notifications /> : <Navigate to="/login" />}
                 />
-                <Route
-                  path="/carrier-selection-rules"
-                  element={isAuthenticated ? <CarrierSelectionRules /> : <Navigate to="/login" />}
-                />
+                
                 <Route
                   path="/settings"
                   element={isAuthenticated ? <Settings /> : <Navigate to="/login" />}

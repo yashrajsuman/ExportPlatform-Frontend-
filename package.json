@@ -12,15 +12,33 @@
     "@testing-library/user-event": "^13.5.0",
     "gh-pages": "^6.2.0",
     "next": "^15.0.3",
-    "react": "^18.3.1",
+    
     "react-chartjs-2": "^5.2.0",
-    "react-dom": "^18.3.1",
+    
     "react-router-dom": "^6.28.0",
     "react-scripts": "5.0.1",
     "recharts": "^2.13.3",
     "tailwindcss": "^3.4.15",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    
+      "@mui/lab": "^5.0.0-alpha.130",
+     
+      "leaflet": "^1.9.3",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-leaflet": "^4.2.1"
   },
+  
+  
+    "devDependencies": {
+      "@types/leaflet": "^1.9.3",
+      "@types/react": "^18.2.6",
+      "@types/react-dom": "^18.2.4",
+      "typescript": "^5.0.4"
+    },
+  
+  
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
